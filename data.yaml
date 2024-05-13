@@ -2,12 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 4
-names: ['Docking Ring', 'Nozzle', 'Satellite', 'Solar Panel']
+nc: 1
+names: ['center-of-cone']
 
 roboflow:
-  workspace: satellite-pduch
-  project: dummysat-848x640
-  version: 2
+  workspace: graspobject
+  project: dummy-sat-tiiup
+  version: 4
   license: CC BY 4.0
-  url: https://universe.roboflow.com/satellite-pduch/dummysat-848x640/dataset/2
+  url: https://universe.roboflow.com/graspobject/dummy-sat-tiiup/dataset/4

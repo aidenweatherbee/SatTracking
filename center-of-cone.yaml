@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['center-of-cone']
+
+roboflow:
+  workspace: satellite-pduch
+  project: center-of-cone
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/satellite-pduch/center-of-cone/dataset/1
